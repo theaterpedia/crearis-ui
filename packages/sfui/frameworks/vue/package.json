@@ -1,6 +1,6 @@
 {
-  "name": "@storefront-ui/vue",
-  "version": "2.6.0",
+  "name": "@crearis/crearis-ui",
+  "version": "0.0.2",
   "license": "MIT",
   "sideEffects": false,
   "exports": {
@@ -65,13 +65,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://docs.storefrontui.io/v2/#vue",
+  "homepage": "https://docs.crearis.info",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuestorefront/storefront-ui.git",
+    "url": "git+https://github.com/crearis/crearis-ui.git",
     "directory": "packages/sfui/frameworks/vue"
   },
   "bugs": {
-    "url": "https://github.com/vuestorefront/storefront-ui/issues"
+    "url": "https://github.com/crearis/crearis-ui/issues"
   }
 }
