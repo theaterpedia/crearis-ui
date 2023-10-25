@@ -39,6 +39,8 @@
     "build:typography": "turbo run build:typography",
     "build:peer-next": "turbo run build:peer-next",
     "build:tw-plugin-peer-next": "turbo run builtd:w-plugin-peer-next",
+    "changesets:version": "yarn changeset version && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn install && yarn prepare:docs",
+    "changesets:publish": "yarn build && yarn changeset publish",    
     "test": "turbo run test",
     "test:ci-pre:vue": "yarn build:peer-next && turbo run test:ci-pre:vue",
     "test:ci:vue": "yarn build:peer-next && turbo run test:ci:vue",
