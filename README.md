@@ -1,27 +1,28 @@
-<p align="center">
+<!-- p align="center">
   <img src="https://user-images.githubusercontent.com/1626923/157498695-885de6c5-deba-416d-8287-51e7269aef56.png" alt="Storefront UI" />
-</p>
+</p -->
+
+<h1 align="center">
+  Crearis UI
+</h1>
 
 <h3 align="center">
-  Framework-agnostic UI library and Design System for eCommerce based on <a href="https://tailwindcss.com/">TailwindCSS</a>.
+  Extending <a href="https://vuestorefrontui.io/">Vuestorefront UI</a>, Framework-agnostic UI library and Design System (based on on <a href="https://tailwindcss.com/">TailwindCSS</a>.)
+  adding content-specific Components for cultural networking
 </h3>
 
+## Running Configuration on Ubuntu
+Node 16 required: ´´´nvm use 16.15.1´´´
+Prepare to publish: ´´´yarn build´´´
+Output is rendered to these locations:
+- Nuxt examples: apps/preview
+- NPM Packages: node_modules/@storefront-ui/...
+  - for publishing we change package-names manually
+  - for internal work we set a symbolic-link
+  - versions can be set throughout the repo
 
-<p align="center">
-  <a href="https://discord.gg/vuestorefront">
-      <img alt="Chat with us on Discord" src="https://img.shields.io/discord/770285988244750366?label=join%20discord&logo=Discord&logoColor=white" />
-  </a>
-  <img alt="npm" src="https://img.shields.io/npm/v/@storefront-ui/vue">
-  <a href="http://commitizen.github.io/cz-cli/">
-      <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/vuestorefront/storefront-ui">
-      <img alt="License" src="https://img.shields.io/github/license/vuestorefront/storefront-ui" />
-  </a>
-  <a href="https://github.com/vuestorefront/storefront-ui/pulls">
-      <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
-  </a>
-</p>
+Next step: set a symlink or clone the files after build
+
 <hr>
 
 <div align="center">
