@@ -6,8 +6,11 @@
   Crearis UI
 </h1>
 
-## altered the setup from storefront-ui
-should run with yarn@3.6.4
+## this repo is only partially functional!!
+we altered the setup from storefront-ui
+- updated node from v16.15.1 to v20 (the repo was locked down to max. v17)
+- partially deactivated turbo-repo because it would not allow to work outside of the @storefront-ui workspace (which is required if we want to publish on npm)
+- it should run with yarn@3.6.4
 
 ```
 yarn build:vue
