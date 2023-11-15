@@ -16,7 +16,6 @@
     ]
   },
   "scripts": {
-    "publish:vue": "cd packages/sfui/frameworks/vue && npm publish --access public",
     "postinstall": "node hasEnv NOT_GENERATE_ICON && yarn generate-icons",
     "generate-icons": "yarn createVueIcons && yarn createReactIcons && yarn lint:fix:sfui",
     "prepare": "husky install",
@@ -34,8 +33,7 @@
     "build:replace-assets-url-with": "frs-replace \"http:\\/\\/localhost:3100\\/@assets\\/\" \"https://storage.googleapis.com/sfui_docs_artifacts_bucket_public/$ENV_NAME/\" -i \"apps/preview/*/pages/**/*\" -s \"preserve-structure\" -o .",
     "build:nuxt-module": "turbo run build:nuxt-module",
     "build:react": "turbo run build:react",
-    "build:vue": "yarn build:shared && cd packages/sfui/frameworks/vue && yarn build:vue",
-    "build:shared": "cd packages/sfui/shared && yarn build:shared",
+    "build:vue": "turbo run build:vue",
     "build:release": "turbo run build:release",
     "build:tailwind-config": "turbo run build:tailwind-config",
     "build:typography": "turbo run build:typography",
@@ -63,7 +61,6 @@
     "@commitlint/config-conventional": "^17.0.0",
     "@frsource/frs-replace": "^4.1.1",
     "@storefront-ui/typescript-config": "workspace:*",
-    "@storefront-ui/vue": "2.6.0",
     "@vue-storefront/prettier-config": "^2.0.0-rc.1",
     "babel-cli": "^6.26.0",
     "babel-preset-node": "^5.1.1",
@@ -81,7 +78,7 @@
   "engines": {
     "npm": ">=8.19.1",
     "yarn": ">=1.22.19",
-    "node": ">=16.0.0"
+    "node": ">=16.0.0 <17.0.0"
   },
   "packageManager": "yarn@3.6.4",
   "config": {

@@ -1,5 +1,5 @@
-# @storefront-ui/vue
+# @crearis/vue
 
-Storefront-ui design system components for vue.
+Variant of the Storefront-ui design system components for vue.
 
-For more information [see our documentation](https://docs.storefrontui.io/v2/).
+For more information [see their documentation](https://docs.storefrontui.io/v2/).

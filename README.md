@@ -6,6 +6,15 @@
   Crearis UI
 </h1>
 
+## altered the setup from storefront-ui
+should run with yarn@3.6.4
+
+```
+yarn build:vue
+yarn publish:vue
+
+```
+
 <h3 align="center">
   Extending <a href="https://vuestorefrontui.io/">Vuestorefront UI</a>, Framework-agnostic UI library and Design System (based on on <a href="https://tailwindcss.com/">TailwindCSS</a>.)
   adding content-specific Components for cultural networking
