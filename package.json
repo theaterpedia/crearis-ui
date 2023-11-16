@@ -16,7 +16,10 @@
     ]
   },
   "scripts": {
+    "publish": "yarn build:tailwind-config && yarn publish:tailwind-config && yarn build:typography && yarn publish:typography && yarn build:vue && yarn publish:vue",
     "publish:vue": "cd packages/sfui/frameworks/vue && npm publish --access public",
+    "publish:tailwind-config": "cd packages/config/tailwind-crearis && npm publish --access public",
+    "publish:typography": "cd packages/sfui/typography-crearis && npm publish --access public",
     "postinstall": "node hasEnv NOT_GENERATE_ICON && yarn generate-icons",
     "generate-icons": "yarn createVueIcons && yarn createReactIcons && yarn lint:fix:sfui",
     "prepare": "husky install",
@@ -37,8 +40,8 @@
     "build:vue": "yarn build:shared && cd packages/sfui/frameworks/vue && yarn build:vue",
     "build:shared": "cd packages/sfui/shared && yarn build:shared",
     "build:release": "turbo run build:release",
-    "build:tailwind-config": "turbo run build:tailwind-config",
-    "build:typography": "turbo run build:typography",
+    "build:tailwind-config": "cd packages/config/tailwind-crearis && yarn build:tailwind-config",
+    "build:typography": "cd packages/sfui/typography-crearis && yarn build:typography",
     "build:peer-next": "turbo run build:peer-next",
     "build:tw-plugin-peer-next": "turbo run builtd:w-plugin-peer-next",
     "test": "turbo run test",

@@ -1,6 +1,7 @@
 {
-    "name": "@storefront-ui/typography",
-    "version": "2.4.0",
+    "name": "@crearis/typography",
+    "description": "Variant of SFUI typography plugin for Tailwind",
+    "version": "0.0.6",
     "sideEffects": false,
     "license": "MIT",
     "exports": {
