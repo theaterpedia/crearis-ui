@@ -1995,8 +1995,8 @@ __metadata:
   dependencies:
     "@floating-ui/vue": ^0.2.1
     "@storefront-ui/eslint-config": "workspace:*"
-    "@storefront-ui/shared": "workspace:*"
-    "@storefront-ui/tailwind-config": "workspace:*"
+    "@storefront-ui/shared": ^2.5.0
+    "@storefront-ui/tailwind-config": ^2.3.1
     "@storefront-ui/tests-shared": "workspace:*"
     "@vitejs/plugin-vue": ^4.0.0
     "@vueuse/core": ^9.12.0
@@ -4131,7 +4131,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@storefront-ui/shared@2.5.0, @storefront-ui/shared@workspace:*, @storefront-ui/shared@workspace:packages/sfui/shared":
+"@storefront-ui/shared@2.5.0, @storefront-ui/shared@^2.5.0, @storefront-ui/shared@workspace:*, @storefront-ui/shared@workspace:packages/sfui/shared":
   version: 0.0.0-use.local
   resolution: "@storefront-ui/shared@workspace:packages/sfui/shared"
   dependencies:
@@ -4143,7 +4143,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@storefront-ui/tailwind-config@2.3.1, @storefront-ui/tailwind-config@workspace:*, @storefront-ui/tailwind-config@workspace:^, @storefront-ui/tailwind-config@workspace:packages/config/tailwind":
+"@storefront-ui/tailwind-config@2.3.1, @storefront-ui/tailwind-config@^2.3.1, @storefront-ui/tailwind-config@workspace:*, @storefront-ui/tailwind-config@workspace:^, @storefront-ui/tailwind-config@workspace:packages/config/tailwind":
   version: 0.0.0-use.local
   resolution: "@storefront-ui/tailwind-config@workspace:packages/config/tailwind"
   dependencies:
