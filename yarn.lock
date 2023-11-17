@@ -1989,12 +1989,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@crearis/tailwind-config@npm:latest":
+  version: 0.0.6
+  resolution: "@crearis/tailwind-config@npm:0.0.6"
+  dependencies:
+    "@mertasan/tailwindcss-variables": ^2.5.2
+    "@storefront-ui/tw-plugin-peer-next": "workspace:*"
+  checksum: 5a043d00eee85bebdd8573afd8c7ddd1c711100f67542cc8ac00f4978775744c0cb9d49d22d7e7e70de798a0890cd9f726d40654812e3aeaf20429f10b4cf930
+  languageName: node
+  linkType: hard
+
 "@crearis/tailwind-config@workspace:packages/config/tailwind-crearis":
   version: 0.0.0-use.local
   resolution: "@crearis/tailwind-config@workspace:packages/config/tailwind-crearis"
   dependencies:
     "@mertasan/tailwindcss-variables": ^2.5.2
-    "@storefront-ui/tw-plugin-peer-next": "workspace:*"
+    "@storefront-ui/tw-plugin-peer-next": 2.3.1
     typescript: ^4.9.5
     vite: ^4.3.0
     vite-plugin-dts: ^2.0.0-beta.1
@@ -2017,10 +2027,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@crearis/vue@workspace:packages/sfui/frameworks/vue"
   dependencies:
+    "@crearis/tailwind-config": latest
     "@floating-ui/vue": ^0.2.1
     "@storefront-ui/eslint-config": "workspace:*"
     "@storefront-ui/shared": ^2.5.0
-    "@storefront-ui/tailwind-config": ^2.3.1
     "@storefront-ui/tests-shared": "workspace:*"
     "@vitejs/plugin-vue": ^4.0.0
     "@vueuse/core": ^9.12.0
@@ -4167,12 +4177,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@storefront-ui/tailwind-config@2.3.1, @storefront-ui/tailwind-config@^2.3.1, @storefront-ui/tailwind-config@workspace:*, @storefront-ui/tailwind-config@workspace:^, @storefront-ui/tailwind-config@workspace:packages/config/tailwind":
+"@storefront-ui/tailwind-config@2.3.1, @storefront-ui/tailwind-config@workspace:*, @storefront-ui/tailwind-config@workspace:^, @storefront-ui/tailwind-config@workspace:packages/config/tailwind":
   version: 0.0.0-use.local
   resolution: "@storefront-ui/tailwind-config@workspace:packages/config/tailwind"
   dependencies:
     "@mertasan/tailwindcss-variables": ^2.5.2
-    "@storefront-ui/tw-plugin-peer-next": "workspace:*"
+    "@storefront-ui/tw-plugin-peer-next": 2.3.1
     typescript: ^4.9.5
     vite: ^4.3.0
     vite-plugin-dts: ^2.0.0-beta.1
@@ -4199,7 +4209,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@storefront-ui/tw-plugin-peer-next@workspace:*, @storefront-ui/tw-plugin-peer-next@workspace:packages/sfui/tw-plugin-peer-next":
+"@storefront-ui/tw-plugin-peer-next@2.3.1, @storefront-ui/tw-plugin-peer-next@workspace:*, @storefront-ui/tw-plugin-peer-next@workspace:packages/sfui/tw-plugin-peer-next":
   version: 0.0.0-use.local
   resolution: "@storefront-ui/tw-plugin-peer-next@workspace:packages/sfui/tw-plugin-peer-next"
   dependencies:

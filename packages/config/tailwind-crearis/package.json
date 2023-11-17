@@ -1,6 +1,6 @@
 {
   "name": "@crearis/tailwind-config",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Variant of Storefront UI Tailwind config",
   "license": "MIT",
   "sideEffects": false,
@@ -23,11 +23,11 @@
   "homepage": "https://docs.storefrontui.io/v2/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuestorefront/storefront-ui.git",
-    "directory": "packages/config/tailwind"
+    "url": "git+https://github.com/theaterpedia/crearis-ui.git",
+    "directory": "packages/config/tailwind-crearis"
   },
   "bugs": {
-    "url": "https://github.com/vuestorefront/storefront-ui/issues"
+    "url": "https://github.com/theaterpedia/crearis-ui/issues"
   },
   "devDependencies": {
     "typescript": "^4.9.5",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@mertasan/tailwindcss-variables": "^2.5.2",
-    "@storefront-ui/tw-plugin-peer-next": "workspace:*"
+    "@storefront-ui/tw-plugin-peer-next": "2.3.1"
   },
   "publishConfig": {
     "access": "public"

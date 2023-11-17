@@ -1,1 +1,1 @@
-export * from '@storefront-ui/tailwind-config';
+export * from '@crearis/tailwind-config';

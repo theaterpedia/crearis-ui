@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@mertasan/tailwindcss-variables": "^2.5.2",
-    "@storefront-ui/tw-plugin-peer-next": "workspace:*"
+    "@storefront-ui/tw-plugin-peer-next": "2.3.1"
   },
   "publishConfig": {
     "access": "public"

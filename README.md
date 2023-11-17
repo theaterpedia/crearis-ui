@@ -6,16 +6,30 @@
   Crearis UI
 </h1>
 
-## this repo is only partially functional!!
+## only parts of this repo are actively maintained!!
 we altered the setup from storefront-ui
 - updated node from v16.15.1 to v20 (the repo was locked down to max. v17)
 - partially deactivated turbo-repo because it would not allow to work outside of the @storefront-ui workspace (which is required if we want to publish on npm)
 - it should run with yarn@3.6.4
+- development only in these folders of the repo:
+  - /packages/sfui/frameworks/vue
+  - /packages/config/tailwind-crearis
+  - /packages/sfui/typography-crearis
+
+TODO: yarn dev-functionality
 
 ```
-yarn build:vue
-yarn publish:vue
+yarn build:crearis
+yarn publish:crearis
 
+yarn build:vue
+yarn build:tailwind-config
+yarn build:typography
+
+(before publishing: Update versions)
+yarn publish:vue
+yarn publish:tailwind-config
+yarn publish:typography
 ```
 
 <h3 align="center">

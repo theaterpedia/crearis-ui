@@ -16,7 +16,8 @@
     ]
   },
   "scripts": {
-    "publish": "yarn build:tailwind-config && yarn publish:tailwind-config && yarn build:typography && yarn publish:typography && yarn build:vue && yarn publish:vue",
+    "build:crearis": "yarn update-browserlist-db && yarn generate-icons && yarn build:peer-next && yarn build:shared && yarn build:tailwind-config && yarn build:typography && yarn build:vue",
+    "publish:crearis": "yarn publish:tailwind-config && yarn publish:typography && yarn && yarn build:vue && yarn publish:vue",
     "publish:vue": "cd packages/sfui/frameworks/vue && npm publish --access public",
     "publish:tailwind-config": "cd packages/config/tailwind-crearis && npm publish --access public",
     "publish:typography": "cd packages/sfui/typography-crearis && npm publish --access public",
@@ -37,7 +38,7 @@
     "build:replace-assets-url-with": "frs-replace \"http:\\/\\/localhost:3100\\/@assets\\/\" \"https://storage.googleapis.com/sfui_docs_artifacts_bucket_public/$ENV_NAME/\" -i \"apps/preview/*/pages/**/*\" -s \"preserve-structure\" -o .",
     "build:nuxt-module": "turbo run build:nuxt-module",
     "build:react": "turbo run build:react",
-    "build:vue": "yarn build:shared && cd packages/sfui/frameworks/vue && yarn build:vue",
+    "build:vue": "cd packages/sfui/frameworks/vue && yarn build:vue",
     "build:shared": "cd packages/sfui/shared && yarn build:shared",
     "build:release": "turbo run build:release",
     "build:tailwind-config": "cd packages/config/tailwind-crearis && yarn build:tailwind-config",

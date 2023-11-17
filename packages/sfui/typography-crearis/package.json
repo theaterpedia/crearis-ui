@@ -1,7 +1,7 @@
 {
     "name": "@crearis/typography",
     "description": "Variant of SFUI typography plugin for Tailwind",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "sideEffects": false,
     "license": "MIT",
     "exports": {
@@ -37,10 +37,10 @@
     "homepage": "https://docs.storefrontui.io/v2/",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vuestorefront/storefront-ui.git",
-        "directory": "packages/sfui/typography"
+        "url": "git+https://github.com/theaterpedia/crearis-ui.git",
+        "directory": "packages/sfui/typography-crearis"
     },
     "bugs": {
-        "url": "https://github.com/vuestorefront/storefront-ui/issues"
+        "url": "https://github.com/theaterpedia/crearis-ui/issues"
     }
 }
