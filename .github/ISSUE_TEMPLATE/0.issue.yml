@@ -1,4 +1,6 @@
 name: "[ ] Standard Issue"
+description: |
+  Standard Issue for Tasks and Bugs
 title: '[Issue]: '
 body:
   - type: textarea
